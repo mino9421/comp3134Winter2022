@@ -1,0 +1,7 @@
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=1 ttl=37 time=37.1 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=2 ttl=37 time=36.4 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=3 ttl=37 time=36.4 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=4 ttl=37 time=36.4 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=5 ttl=37 time=36.4 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=6 ttl=37 time=36.4 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=7 ttl=37 time=36.4 ms
