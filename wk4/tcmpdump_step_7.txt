@@ -1,0 +1,28 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -r 0001.pcap
+reading from file 0001.pcap, link-type EN10MB (Ethernet)
+19:09:01.695462 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 162.243.190.66.60588: Flags [P.], seq 2211897928:2211897992, ack 720868276, win 502, options [nop,nop,TS val 3494119814 ecr 2826048834], length 64
+19:09:01.695570 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 162.243.190.66.60588: Flags [P.], seq 64:192, ack 1, win 502, options [nop,nop,TS val 3494119814 ecr 2826048834], length 128
+19:09:01.695618 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 162.243.190.66.60588: Flags [P.], seq 192:256, ack 1, win 502, options [nop,nop,TS val 3494119815 ecr 2826048834], length 64
+19:09:01.695691 IP 162.243.190.66.60588 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 64, win 501, options [nop,nop,TS val 2826048850 ecr 3494119814], length 0
+19:09:01.695723 IP 162.243.190.66.60588 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 192, win 501, options [nop,nop,TS val 2826048850 ecr 3494119814], length 0
+19:09:01.695768 IP 162.243.190.66.60588 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 256, win 501, options [nop,nop,TS val 2826048850 ecr 3494119815], length 0
+19:09:16.703979 IP 162.243.190.66.60588 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 256, win 501, options [nop,nop,TS val 2826063858 ecr 3494119815], length 0
+19:09:16.704023 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 162.243.190.66.60588: Flags [.], ack 1, win 502, options [nop,nop,TS val 3494134823 ecr 2826048850], length 0
+19:09:26.525433 IP 91.240.118.15.50799 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.7571: Flags [S], seq 3544942862, win 1024, length 0
+19:09:29.445788 IP6 fe80::fc0b:b7ff:fe34:b203 > ip6-allrouters: ICMP6, router solicitation, length 16
+19:09:31.145265 IP 92.63.197.21.58687 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.31542: Flags [S], seq 2670417842, win 1024, length 0
+19:09:31.807847 IP 162.243.190.66.60588 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 256, win 501, options [nop,nop,TS val 2826078962 ecr 3494134823], length 0
+19:09:31.807891 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 162.243.190.66.60588: Flags [.], ack 1, win 502, options [nop,nop,TS val 3494149927 ecr 2826048850], length 0
+19:09:35.157195 IP 92.63.197.21.58687 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.31542: Flags [S], seq 2670417842, win 1024, length 0
+19:09:38.078583 IP 115.29.205.185.60064 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.6379: Flags [S], seq 18010275, win 29200, options [mss 1460,sackOK,TS val 1874681099 ecr 0,nop,wscale 7], length 0
+19:09:39.177649 IP 92.63.197.21.58687 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.31542: Flags [S], seq 2670417842, win 1024, length 0
+19:09:40.207654 IP scanner-23.ch1.censys-scanner.com.63159 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.7869: Flags [S], seq 3786615138, win 1024, options [mss 1460], length 0
+19:09:43.220564 IP 92.63.197.21.58687 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.31542: Flags [S], seq 2670417842, win 1024, length 0
+19:09:46.907518 IP 162.243.190.66.60588 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 256, win 501, options [nop,nop,TS val 2826094062 ecr 3494149927], length 0
+19:09:46.907567 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 162.243.190.66.60588: Flags [.], ack 1, win 502, options [nop,nop,TS val 3494165026 ecr 2826048850], length 0
+19:09:52.131124 ARP, Request who-has _gateway tell lamp-ubuntu-s-1vcpu-1gb-tor1-01, length 28
+19:09:52.132046 ARP, Reply _gateway is-at fe:00:00:00:01:01 (oui Unknown), length 46
+19:09:57.897317 IP recyber.net.http-alt > lamp-ubuntu-s-1vcpu-1gb-tor1-01.9462: Flags [S], seq 2254943379, win 1024, length 0
+19:09:58.643148 IP 190.4.54.170.51192 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.microsoft-ds: Flags [S], seq 2875991177, win 1024, length 0
+19:10:02.012142 IP 162.243.190.66.60588 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 256, win 501, options [nop,nop,TS val 2826109166 ecr 3494165026], length 0
+19:10:02.012188 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 162.243.190.66.60588: Flags [.], ack 1, win 502, options [nop,nop,TS val 3494180131 ecr 2826048850], length 0
